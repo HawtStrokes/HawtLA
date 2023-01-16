@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HLA", "HLA\HLA.vcxproj", "{D6729E78-30E6-418F-AFA5-BD5F77AA2F1C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HLA_Demo", "HLA_Demo\HLA_Demo.vcxproj", "{D690CFFA-E03D-4B90-80F4-B44CF39F0ED1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6729E78-30E6-418F-AFA5-BD5F77AA2F1C} = {D6729E78-30E6-418F-AFA5-BD5F77AA2F1C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
