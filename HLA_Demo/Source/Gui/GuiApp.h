@@ -1,5 +1,5 @@
 #pragma once
-#ifdef GUI
+
 #include <functional>
 
 struct GLFWwindow;
@@ -43,4 +43,3 @@ namespace WrapGui
 
 	};
 }
-#endif

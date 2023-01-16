@@ -1,6 +1,5 @@
 // Include Definitions to Build Successfully
 
-#ifdef GUI
 #include "imgui.cpp"
 #include "imgui_demo.cpp"
 #include "imgui_draw.cpp"
@@ -8,4 +7,3 @@
 #include "imgui_tables.cpp"
 #include "imgui_impl_vulkan.cpp"
 #include "imgui_impl_glfw.cpp"
-#endif

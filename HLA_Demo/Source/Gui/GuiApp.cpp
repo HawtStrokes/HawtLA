@@ -1,5 +1,4 @@
 // Based on imgui_examples (examples_glfw_vulkan)
-#ifdef GUI
 #include "GuiApp.h"
 
 #include "imgui.h"
@@ -595,5 +594,3 @@ namespace WrapGui
 	}
 
 }
-
-#endif
